@@ -1,0 +1,373 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.logo{
+
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     width:180px ;
+     height:40px ;
+     padding: 10px 00x 10px 0px;
+     gap: 10px;
+}
+
+.mynav{
+     display: flex;
+     justify-content: space-between;
+}
+
+.nav1{
+     display: flex;
+     align-items: center;
+}
+
+.nav2{
+     display: flex;
+     margin-left: 250px;
+     gap: 40px;
+     align-items: center;
+}
+
+ul li a{
+     margin-left: 30px;
+     color: black;
+}
+
+.myframe{
+     display: flex;
+     padding: 40px 100px 0px 100px;
+     justify-content: space-between;
+}
+.frame-left{
+     height: 480px;
+     width: 530px;
+   
+}
+
+.frame-right{
+     height: 480px;
+     width: 530px;
+     background-image: url(Illustration.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     
+}
+
+.f-head h2{
+     font-size: 80px;
+     Line-height:76.56px;
+     font-weight: 500;
+}
+
+.f-para{
+     padding-top: 40px;
+}
+
+.f-para p{
+     font-size: x-large;
+}
+
+.f-btn{
+     padding-top: 60px;
+}
+
+.companies{
+     display:flex;
+     margin-top: 100px;
+
+}
+
+.clink {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+/* .clink{
+     display: flex;
+     justify-content: space-between;
+}*/
+.myimg{
+     display: flex;
+     justify-content: center;
+     width: 104px;
+     height: 50px;
+}
+.img1{
+     background-image: url(Company\ logo\ \(1\).png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     
+     
+}
+.img2{
+     background-image: url(Company\ logo\ \(1\).png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+   
+}
+.img3{
+     background-image: url(Company\ logo\ \(1\).png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+    
+}
+
+.img4{
+     background-image: url(Company\ logo\ \(1\).png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+   
+}
+.img5{
+     background-image: url(Company\ logo\ \(1\).png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+   
+}
+.img6{
+     background-image: url(Company\ logo\ \(1\).png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+    
+}
+
+/* container-3 */
+
+.container-3{
+     background-image: url("container3.png");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     padding: 40px 0;
+ }
+ 
+ .title-container-3{
+     padding: 0px 82px;
+ }
+ 
+ .lorem3{
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .lorem-stle3{
+     border: 2px solid none;
+     border-radius: 20px;
+     background-color: rgb(241, 241, 241);
+ }
+ 
+ .lorem-icon3{
+     display: flex;
+     margin: 8px;
+ }
+ 
+ .lorem-circle3{
+     height: 20px;
+     width: 20px;
+     border-radius: 50%;
+     background-color: #94c83d;
+ }
+ 
+ .lorem-icon3 .l3c2{
+     padding-left: 10px;
+     padding-right: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: black;
+ }
+ 
+ .joblist-col2{
+     padding: 20px 0px;
+     display: flex;
+     justify-content: center;
+ }
+ .paracol-2{
+     color: #fff;
+     font-size: 50px;
+     font-family: "Plus Jakarta Sans";
+ }
+ .spcol-2{
+     padding-left: 10px;
+     color:#94c83d;
+     font-size: 50px;
+     font-family: "Plus Jakarta Sans";
+     font-weight: 600;
+ }
+ 
+ /* job-listing */
+ .joblist-col3{
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+ }
+ .job-heading{
+     color: #fff;
+     font-size: 45px;
+     font-weight: 600;
+     font-family: "Plus Jakarta Sans";
+     font-style: normal;
+ }
+ 
+ /* joblist-col2 */
+ /* job-title1 */
+ .job-title1{
+     background: #fff;
+     padding: 22px 30px;
+     border-radius: 10px;
+ }
+ 
+ .faculty{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ .fn{
+     font-family: "Plus Jakarta Sans";
+     font-style: normal;
+     font-size: 28px;
+     color: #000;
+ }
+ 
+ .vw{
+     border: none;
+     padding: 16px 40px;
+     cursor: pointer;
+     border-radius: 5px;
+     background: #e7e7e7;
+ }
+ 
+ .apn{
+     border: none;
+     padding: 16px 40px;
+     cursor: pointer;
+     border-radius: 5px;
+     background:#94c83d;
+ }
+ 
+ .fee{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 15px 0 0 0;
+ }
+ .tfee{
+     display: flex;
+     align-items: center;
+     gap: 40px;
+ }
+ .fee1{
+     display: flex;
+     align-items: center;
+     gap: 8px;
+ }
+ .dollar-img{
+     width: 11px;
+     display: flex;
+     align-items: center;
+ }
+ .dollar{
+     width: 100%;
+ }
+ .fee-amount{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     color: #58585a;
+ }
+ 
+ .fee2{
+     display: flex;
+     align-items: center;
+     gap: 8px;
+ }
+ 
+ .card-img{
+     width: 15px;
+     display: flex;
+     align-items: center;
+ }
+ .card{
+     width: 100%;
+ }
+ .time{
+     display: flex;
+     align-items: center;
+ }
+ .post-time{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     color: #58585a;
+ }
+ .location{
+     display: flex;
+     align-items: center;
+     padding: 15px 0 0 0;
+     gap: 8px;
+ }
+ .loca-img{
+     max-width: 14px;
+     display: flex;
+     align-items: center;
+ }
+ .limg{
+     width: 100%;
+ }
+ .rand-loca{
+     font-family: "Plus Jakarta Sans";
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     color: #58585a;
+ }
+ /* job-title2 */
+ .job-title2{
+     background: #fff;
+     padding: 22px 30px;
+     border-radius: 10px;
+ }
+ 
+ /* joblist-col4 */
+ .joblist-col4{
+     padding: 10px 0 0 0;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+ }
+ 
+ /* joblist-col5 */
+ .joblist-col5{
+     padding: 10px 0 0 0;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+ }
+ 
+ .joblist-col6{
+     padding: 30px 0 0 0;
+     display: flex;
+     justify-content: center;
+ }
+ .vjob{
+     border: none;
+     padding: 16px 40px;
+     border-radius: 5px;
+     background-color: #94C83D;
+     cursor: pointer;
+ }
+ 
+ /* container-3 end */
+ 
